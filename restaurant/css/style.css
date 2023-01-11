@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+
+.clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clear {
+    clear: both;
+}
+.bgContainer{
+  border: 2px solid red;
+  height: 1000px;
+  background-image: url("/restaurant/images/bgFood.jpg");
+  /* background-attachment:initial ; */
+  background-repeat: no-repeat;
+  Position: relative;
+  Background-size: cover;
+  /* background-position-y:10% ; */
+  /* background-position-x: 70%; */
+  /* background-size:contain ; */
+}
+
+.headerTopics{
+  width: 70%;
+  height: 10%;
+  border: 1px solid blue;
+  list-style: none;
+  margin: 0;
+  float: right;
+}
+.headerTopics > li{
+  border: 2px solid black;
+  width: 12%;
+  height: 35%;
+  margin-left: 1%;
+  margin-right: 1%;
+  text-decoration: none;
+  text-align: center;
+  float: right;
+  margin-top: 30px;
+}
+.mainLeft{
+  font-size: 1.5rem;
+  /* border: 2px solid orange; */
+  width: 50%;
+  margin-top: 13%;
+  margin-left: 14%;
+}
+.mainLeft > h1{
+  font-size: 4.7rem;
+}
+li{
+  list-style: none;
+}
+.mainIconsLi{
+  border: 1px solid orange;
+  width: 100%;
+}
+.mainIconsLi > li{
+  float: left;
+  width: 10%;
+}
+.button1{
+  border-radius: 5px;
+  border-color: orange;
+  background-color: orange;
+  color: white;
+  width: 30%;
+  /* font-size: 16px; */
+}
+.searchBar{
+  border-radius: 6px;
+}
+.bgContainer2{
+  border: 2px solid red;
+  height: 1000px;
+  background-image: url("/restaurant/images/dishTwo.jpg");
+  background-repeat: no-repeat;
+  Position: relative;
+  Background-size: cover;
+}
+.aboutUs{
+  border: 3px solid black;
+}
+h2{
+  font-size: 4.5rem;
+}
